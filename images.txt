@@ -7,7 +7,6 @@ whyour/qinglong:latest
 neilpang/acme.sh:latest
 neilpang/acme.sh:dev
 anmour/bncr:latest
-nginx:latest
 nginx:alpine
 vaultwarden/server:latest
 silicer/go-cqhttp:latest
