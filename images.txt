@@ -8,9 +8,11 @@ neilpang/acme.sh:latest
 neilpang/acme.sh:dev
 anmour/bncr:latest
 nginx:latest
+nginx:alpine
 vaultwarden/server:latest
 silicer/go-cqhttp:latest
 shufflewzc/qrbbitpro:latest
 a76yyyy/qiandao:latest
+a76yyyy/qiandao:dev
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
