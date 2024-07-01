@@ -1,4 +1,3 @@
-nginx
 #支持私库
 whyour/qinglong:2.17
 whyour/qinglong:2.17.4
