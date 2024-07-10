@@ -9,6 +9,7 @@ anmour/bncr:latest
 nginx:alpine
 vaultwarden/server:latest
 etlegacy/server:latest
+bitwardenrs/server:latest
 silicer/go-cqhttp:latest
 shufflewzc/qrbbitpro:latest
 a76yyyy/qiandao:latest
