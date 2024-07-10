@@ -8,6 +8,7 @@ neilpang/acme.sh:dev
 anmour/bncr:latest
 nginx:alpine
 vaultwarden/server:latest
+mariadb/server
 silicer/go-cqhttp:latest
 shufflewzc/qrbbitpro:latest
 a76yyyy/qiandao:latest
