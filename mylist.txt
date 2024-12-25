@@ -1,0 +1,24 @@
+! Title: AdGuardHome白名单
+
+## 百度ip查询
+@@||qifu-public.bj.bcebos.com^$important
+@@||qifu-api.baidubce.com^$important
+## 淘宝
+@@||s.click.taobao.com^$important
+@@||s.click.tmall.com^$important
+
+@@||cdn.ynuf.aliapp.org^$important
+@@||h-adashx.ut.taobao.com^$important
+
+
+@@||appdownload.alicdn.com^$important
+@@||www.lanzouw.com^$important
+@@||dl.360safe.com^$important
+
+
+###饿了么
+@@||nt2.ele.me^$important
+###减少京东验证
+@@||jd.com^$important
+#百度评论列表
+@@||ext.baidu.com^$important
