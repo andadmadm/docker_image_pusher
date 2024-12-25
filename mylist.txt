@@ -21,6 +21,6 @@
 ###饿了么
 @@||nt2.ele.me^$important
 ###减少京东验证
-@@||jd.com^$important
+## @@||jd.com^$important
 #百度评论列表
 @@||ext.baidu.com^$important
