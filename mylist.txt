@@ -6,13 +6,15 @@
 ## 淘宝
 @@||s.click.taobao.com^$important
 @@||s.click.tmall.com^$important
-
-@@||cdn.ynuf.aliapp.org^$important
 @@||h-adashx.ut.taobao.com^$important
 
-
+#阿里cdn
 @@||appdownload.alicdn.com^$important
+@@||cdn.ynuf.aliapp.org^$important
+
+# 蓝奏
 @@||www.lanzouw.com^$important
+# 360下载
 @@||dl.360safe.com^$important
 
 
