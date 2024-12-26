@@ -1,8 +1,8 @@
 ! Title: AdGuardHome白名单
 
 ## 百度ip查询
-! @@||qifu-public.bj.bcebos.com^$important
-! @@||qifu-api.baidubce.com^$important
+@@||qifu-public.bj.bcebos.com^$important
+@@||qifu-api.baidubce.com^$important
 ## 淘宝
 @@||s.click.taobao.com^$important
 @@||s.click.tmall.com^$important
