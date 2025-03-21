@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-  schedule:
-    - cron: '12 2 * * *'
 
 
 env:
@@ -128,11 +126,14 @@ jobs:
             name_space=$(echo "$image" | awk -F'/' '{if (NF==3) print $2; else if (NF==2) print $1; else print ""}')
             # 获取镜像名例  例如nginx
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
-
+        
             name_space_prefix=""
-            # 不管镜像名是否重名，只要命名空间非空，将命名空间加到前缀
-            if [[ -n "${name_space}" ]]; then
-               name_space_prefix="${name_space}_"
+            # 如果镜像名重名
+            if [[ -n "${duplicate_images[$image_name]}" ]]; then
+               #如果命名空间非空，将命名空间加到前缀
+               if [[ -n "${name_space}" ]]; then
+                  name_space_prefix="${name_space}_"
+               fi
             fi
             
             # 将@sha256:等字符删除
