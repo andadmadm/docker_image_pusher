@@ -1,4 +1,31 @@
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#支持私库
+whyour/qinglong:2.17
+whyour/qinglong:2.18
+whyour/qinglong:latest
+neilpang/acme.sh:latest
+neilpang/acme.sh:dev
+nginx:alpine
+vaultwarden/server:latest
+vaultwarden/server:latest-alpine
+ht944/rabbitpro:latest
+
+a76yyyy/qiandao:lite-dev
+a76yyyy/qiandao:dev
+syncthing/syncthing:latest
+
+#filebrowser/filebrowser:latest
+#hacdias/webdav:latest
+#adguard/adguardhome:latest
+#anmour/bncr:latest
+#silicer/go-cqhttp:latest
+# 干扰
+#fangzhengjin/qiandao:latest
+#quchaonet/qiandao:latest
+#bitwardenrs/server:1.11.0-alpine
+#etlegacy/server:v2.77
+#yanyuwangluo/qinglong:2.9.1
+#shufflewzc/qinglong:latest
+
+
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
