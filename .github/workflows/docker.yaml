@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-
+  schedule:
+    - cron: '0 23 * * *'
+      timezone: Asia/Shanghai   
 
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
